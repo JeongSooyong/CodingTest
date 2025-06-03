@@ -10,7 +10,7 @@ public class Main {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-		// 가장 먼저 입력받는 정수의 개수 n과 숫자를 입력한 횟수만큼 값을 담아줄 배열 arr
+		// 가장 먼저 입력받는 정수의 개수 n
 		int n = Integer.parseInt(br.readLine());
 
 		
