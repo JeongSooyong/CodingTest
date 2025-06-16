@@ -1,0 +1,3 @@
+document.getElementById 로 특정 Id의 요소를 찾는다.
+
+document.getElementById('id').innerHTML = '' - 특정 Id요소의 내용을 읽거나 변경 
