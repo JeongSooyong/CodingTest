@@ -1,3 +1,17 @@
 document.getElementById 로 특정 Id의 요소를 찾는다.
 
 document.getElementById('id').innerHTML = '' - 특정 Id요소의 내용을 읽거나 변경 
+document.getElementById('id').src = '123.img'; - 특정 Id요소의 이미지 파일 경로를 바꿈
+document.getElementById('id').style.display = "none" - 특정 Id요소를 숨김
+document.getElementById('id').style.display = "block" - 특정 Id요소를 표시
+
+
+HTML파일에서는 script태그 안에 JavaScript코드를 작성한다.
+ex) <script>
+  document.getElementById('id').innerHTML = "Hello";
+    </script>
+
+외부 파일로도 작성 가능 (파일명은 javascript.js 이런식으로 확장자명을 .js로 해야한다.)
+동일한 코드가 여러번 실행되는경우 이 방법이 더 좋다.
+외부 스크립트를 사용할 때에는 script태그 안에 src="javascript.js 이런식으로 외부 스크립트의 파일명이나 URL주소를 넣어줘야한다.
+
