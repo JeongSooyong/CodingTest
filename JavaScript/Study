@@ -43,4 +43,10 @@ ex) function myFunction(p1, p2) {
 그리고 myFunction(4,3)이라는 함수를 다시 result라는 변수에 할당하여 4*3이라는 연산 결과를 불러온다.
 마지막으로 Id가 "demo"인 요소를 찾아서 result를 innerHTML이라는 메서드로 읽는 코드이다.
 
+function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+}
+let value = toCelsius(77);
+fahrenheit에 77의 값을 할당하여 (5/9)*(77-32)가 된다.
+이런 식으로도 사용이 가능하다.
 
