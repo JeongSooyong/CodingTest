@@ -8,3 +8,21 @@
 없음 타입 : NoneType
 
 type(x)로 데이터의 타입 확인가능
+
+
+타입 변환은 
+변수명 = 타입(변수명)
+ex)
+x = 1
+a = float(x)
+
+
+난수
+print(random.randrange(1, 10)) 
+1에서 9까지의 난수
+
+텍스트 타입의 str은 Java의 배열처럼 특정 인덱스를 추출하거나 특정 함수를 사용 할 수 있다.
+ex) len(), upper(), lower(), strip(), replace(), split()...
+
+
+
