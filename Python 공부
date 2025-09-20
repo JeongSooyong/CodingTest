@@ -1,0 +1,10 @@
+텍스트 타입 : str
+숫자형 타입 : int, float, complex
+시퀀스 타입 : list, tuple, range
+매핑 타입 : dict
+세트 타입 : set, frozenset
+논리 타입 : bool
+이진 타입 : bytes, bytearray, memoryview
+없음 타입 : NoneType
+
+type(x)로 데이터의 타입 확인가능
